@@ -4,13 +4,14 @@
   "description": "#Real time trading desk",
   "main": "server/index.js",
   "scripts": {
-    "start-server": "nodemon --watch server -e js,html index.js",
+    "start": "nodemon --watch server -e js,html index.js",
     "build-watch": "webpack -w"
   },
   "keywords": [],
   "author": "James Byrd",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.19.0",
     "body-parser": "^1.18.3",
     "chalk": "^2.4.2",
     "css-loader": "^2.1.0",
